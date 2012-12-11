@@ -1,10 +1,10 @@
 require 'net/https'
 class Servicedesk
 # This is just meant to take in a ticket from a user prompt and pass back the status
-# example: input 671148 at the command prompt
-#no arguments needed
-#This is my documentation
-#note at the moment, its specific to the my environment, so I'll have to make it general as a gem. To use it as your own, you'd want to stub in your api and u/p
+# Example: input 671148 at the command prompt
+# Arguments: this doesn't have a CLI mode, so only thing to be passed is a ticket number
+#following guidelines at http://guides.rubygems.org/make-your-own-gem/#documenting-code
+#note at the moment, its specific to the my environment, so I'll have to make it general as a gem. To use it as your own, you'd want to stub in your api and u/p. I really should have used rspec mocks to fake an api with data in it.
 
  attr_accessor :ticket
  def initialize

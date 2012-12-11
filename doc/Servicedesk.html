@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=IBM437" http-equiv="Content-Type">
+
+<title>class Servicedesk - RDoc Documentation</title>
+
+<link type="text/css" media="screen" href="./rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "./";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="./js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="./js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="./index.html">Home</a>
+    <a href="./table_of_contents.html#classes">Classes</a>
+    <a href="./table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>project_btorretta.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link">Object
+  
+</nav>
+
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li><a href="#method-c-new">::new</a>
+    
+    <li><a href="#method-i-lets_ask">#lets_ask</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="./ServiceDesk2.html">ServiceDesk2</a>
+  
+    <li><a href="./Servicedesk.html">Servicedesk</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Servicedesk</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+    <!-- Attributes -->
+    <section id="attribute-method-details" class="method-section section">
+      <h3 class="section-header">Attributes</h3>
+
+      
+      <div id="attribute-i-ticket" class="method-detail">
+        <div class="method-heading attribute-method-heading">
+          <span class="method-name">ticket</span><span
+            class="attribute-access-type">[RW]</span>
+        </div>
+
+        <div class="method-description">
+        
+        <pre>This is just meant to take in a ticket from a user prompt and pass back the status
+Example: input 671148 at the command prompt
+Arguments: this doesn't have a CLI mode, so only thing to be passed is a ticket number</pre>
+
+<p>following guidelines at <a
+href="http://guides.rubygems.org/make-your-own-gem/#documenting-code">guides.rubygems.org/make-your-own-gem/#documenting-code</a>
+note at the moment, its specific to the my environment, so I'll have to
+make it general as a gem. To use it as your own, you'd want to stub in your
+api and u/p. I really should have used rspec mocks to fake an api with data
+in it.</p>
+        
+        </div>
+      </div>
+      
+    </section><!-- attribute-method-details -->
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-new" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">new</span><span
+            class="method-args">()</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="new-source">
+            <pre><span class="ruby-comment"># File project_btorretta.rb, line 10</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">initialize</span>
+<span class="ruby-ivar">@ticket</span> = <span class="ruby-identifier">ticket</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- new-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- new-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-lets_ask" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">lets_ask</span><span
+            class="method-args">(*ticket)</span>
+          <span class="method-click-advice">click to toggle source</span>
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+
+          
+          <div class="method-source-code" id="lets_ask-source">
+            <pre><span class="ruby-comment"># File project_btorretta.rb, line 13</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">lets_ask</span>(*<span class="ruby-identifier">ticket</span>)
+          <span class="ruby-identifier">i</span> = <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;What is your ticket number?&quot;</span>
+          <span class="ruby-identifier">ticket</span> = <span class="ruby-identifier">gets</span>.<span class="ruby-identifier">chomp</span>
+          <span class="ruby-identifier">ticket</span> = <span class="ruby-identifier">ticket</span>.<span class="ruby-identifier">to_i</span>
+          <span class="ruby-identifier">site</span> = <span class="ruby-constant">Net</span><span class="ruby-operator">::</span><span class="ruby-constant">HTTP</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">yourapihere</span>.<span class="ruby-identifier">com</span><span class="ruby-string">&quot;, 443)
+          site.use_ssl = true
+          response = site.get2(&quot;</span><span class="ruby-operator">/</span><span class="ruby-identifier">v1</span><span class="ruby-operator">/</span><span class="ruby-identifier">incident</span><span class="ruby-operator">/</span><span class="ruby-constant">IUAT</span><span class="ruby-comment">#{ticket}.yaml&quot;, 'Authorization' =&gt;'Basic ' + [&quot;user:password&quot;].pack('m').strip)</span>
+          <span class="ruby-identifier">puts</span> <span class="ruby-identifier">response</span>.<span class="ruby-identifier">body</span>
+             <span class="ruby-keyword">if</span> <span class="ruby-identifier">response</span>.<span class="ruby-identifier">body</span>.<span class="ruby-identifier">match</span>(<span class="ruby-string">&quot;error&quot;</span>) <span class="ruby-keyword">then</span> <span class="ruby-identifier">raise</span> <span class="ruby-constant">SyntaxError</span>.<span class="ruby-identifier">new</span>(<span class="ruby-string">'Please enter your Incident number without letters, for example 671148'</span>) <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- lets_ask-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- lets_ask-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 3.12.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+
